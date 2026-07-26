@@ -1,10 +1,10 @@
-# Prototipo de Filtro Temporal de Nueva Generación para MapBiomas Argentina 🇦🇷
+# Prototipo de filtro temporal de nueva generación para MapBiomas Argentina 🇦🇷
 
 **Corrección de ruido óptico por estrés hídrico mediante Machine Learning y datos climáticos ERA5.**
 
 Este repositorio contiene el código fuente y el flujo de trabajo analítico presentado para el **Premio MapBiomas Argentina 2026**. El proyecto propone una evolución a los filtros temporales de post-procesamiento actuales, integrando inteligencia artificial y reanálisis climático para corregir transiciones espurias provocadas por anomalías climáticas extremas (como la sequía de 2020 en el Gran Chaco).
 
-## 🗂️ Estructura del Proyecto
+## 🗂️ Estructura del proyecto
 
 El flujo de trabajo está dividido en 4 cuadernos de Jupyter (*Notebooks*) secuenciales para garantizar su total reproducibilidad:
 
