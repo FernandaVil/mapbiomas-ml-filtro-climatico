@@ -4,7 +4,7 @@
 
 Este repositorio contiene el código fuente y el flujo de trabajo analítico presentado para el **Premio MapBiomas Argentina 2026**. El proyecto propone una evolución a los filtros temporales de post-procesamiento actuales, integrando inteligencia artificial y reanálisis climático para corregir transiciones espurias provocadas por anomalías climáticas extremas (como la sequía de 2020 en el Gran Chaco).
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 El flujo de trabajo está dividido en 4 cuadernos de Jupyter (*Notebooks*) secuenciales para garantizar su total reproducibilidad:
 
@@ -35,5 +35,5 @@ El proyecto fue diseñado para ejecutarse íntegramente en la nube apoyándose e
 3. Autenticación en Earth Engine:
     Al ejecutar el primer cuaderno, el entorno solicitará autenticación en los servidores de Google. Sigue el enlace generado por `ee.Authenticate()` para habilitar el acceso a los catálogos públicos.
 
-### Resultados Destacados
+### Resultados destacados
 El modelo logró identificar espacialmente la huella de la sequía de 2020 sobre las coberturas agropastoriles y humedales del Gran Chaco. Al aplicar el filtro inteligente, se corrigió el 17.53% del área de estudio, lo que representa una recuperación cartográfica de 579.616 hectáreas que habían sido afectadas por ruido óptico derivado del estrés fisiológico de la vegetación.
